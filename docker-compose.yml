@@ -1,0 +1,11 @@
+
+version: "3"
+
+services:
+
+  statics:
+    build: ./src
+    ports:
+      - "82:80"
+    volumes:
+      - ./src:/opt/app/src

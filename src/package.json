@@ -1,0 +1,15 @@
+{
+  "name": "servidorzinho",
+  "version": "1.0.0",
+  "description": "Servidor para Servir um site estatico",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Werner Romling",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
